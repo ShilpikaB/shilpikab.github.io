@@ -152,7 +152,7 @@ input, select, textarea {
 	}
 
 	h2 {
-		font-size: 1.5em;
+		font-size: 2em;
 		line-height: 1.5em;
 	}
 
@@ -1520,8 +1520,6 @@ input, select, textarea {
 				flex-wrap: wrap;
 				box-sizing: border-box;
 				align-items: stretch;
-				text-align: center;
-				color: white;
 			}
 
 				.row > * {
@@ -2057,7 +2055,7 @@ input, select, textarea {
 			display: block;
 			height: 100%;
 			left: 0;
-			opacity: 0;
+			opacity: 0.5;
 			position: absolute;
 			top: 0;
 			width: 100%;
@@ -2073,19 +2071,19 @@ input, select, textarea {
 				-ms-transition: opacity 0.2s ease-in-out;
 				transition: opacity 0.2s ease-in-out;
 				border-radius: 0.35em;
-				border: solid 3px rgba(255, 255, 255, 0.25);
+				border: solid 3px rgba(255, 255, 255, 0.5);
 				color: #fff;
 				content: 'Learn More';
 				display: inline-block;
-				font-size: 0.95em;
+				font-size: 1.25em;
 				font-weight: 400;
-				left: 50%;
+				left: 45%;
 				line-height: 2.25em;
 				margin: -1.25em 0 0 -3em;
 				opacity: 0;
 				padding: 0 1.5em;
 				position: absolute;
-				text-align: bottom;
+				text-align: center;
 				text-decoration: none;
 				top: 50%;
 				white-space: nowrap;
@@ -2134,16 +2132,7 @@ input, select, textarea {
 			.image.fit img {
 				width: 100%;
 			}
-		.image.textblock {
-		   position: absolute;
-		   top: 15%;
-		   left: 50%;
-		   transform: translate(-50%, -50%);
-		   text-align: center;
-		   color: white;
-		   font-size: 1.25em;
-		   font-weight:2.5em
-		}
+
 		.image.avatar {
 			border-radius: 100%;
 		}
@@ -2569,11 +2558,12 @@ input, select, textarea {
 	}
 
 		.work-item .image {
-			margin: 0 0 1.5em 0;
+			margin: 0 0 0.5em 0;
 		}
 
 		.work-item h3 {
-			font-size: 1.25em;
+			font-size: 1.15em;
+			font-weight: 600;
 			margin: 0 0 0.5em 0;
 		}
 
@@ -2650,8 +2640,8 @@ input, select, textarea {
 		}
 
 		#header .image.avatar {
-			margin: -3.5em 4em 1em 1em;
-			width: 9.25em;
+			margin: 0 0 1em 0;
+			width: 6.25em;
 		}
 
 /* Footer */
@@ -3134,15 +3124,15 @@ input, select, textarea {
 		/* Basic */
 
 			h1 {
-				font-size: 1.75em;
-			}
-
-			h2 {
 				font-size: 1.5em;
 			}
 
+			h2 {
+				font-size: 1.2em;
+			}
+
 			h3 {
-				font-size: 1.25em;
+				font-size: 1em;
 			}
 
 		/* Section/Article */
@@ -3152,7 +3142,7 @@ input, select, textarea {
 			}
 
 			header.major h2 {
-				font-size: 1.35em;
+				font-size: 1.5em;
 			}
 
 		/* List */
@@ -3230,4 +3220,3 @@ input, select, textarea {
 			}
 
 	}
-	
