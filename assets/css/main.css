@@ -2132,7 +2132,16 @@ input, select, textarea {
 			.image.fit img {
 				width: 100%;
 			}
-
+		.image.textblock {
+		   position: absolute;
+		   top: 15%;
+		   left: 50%;
+		   transform: translate(-50%, -50%);
+		   text-align: center;
+		   color: white;
+		   font-size: 1.25em;
+		   font-weight:2.5em
+		}
 		.image.avatar {
 			border-radius: 100%;
 		}
