@@ -2562,12 +2562,12 @@ input, select, textarea {
 		}
 
 		.work-item h3 {
-			font-size: 1.3em;
+			font-size: 1.4em;
 			margin: 0 0 0.5em 0;
 		}
 
 		.work-item p {
-			font-size: 0.95em;
+			font-size: 1em;
 			line-height: 1.5em;
 			margin: 0;
 		}
@@ -3123,15 +3123,15 @@ input, select, textarea {
 		/* Basic */
 
 			h1 {
-				font-size: 1.5em;
+				font-size: 1.75em;
 			}
 
 			h2 {
-				font-size: 1.2em;
+				font-size: 1.5em;
 			}
 
 			h3 {
-				font-size: 1em;
+				font-size: 1.25em;
 			}
 
 		/* Section/Article */
